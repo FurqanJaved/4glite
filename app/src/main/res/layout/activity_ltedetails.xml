@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context="com.maxdev.glitenetwork.ui.LTEDetailsActivity">
+    tools:context="com.xperts.glitenetwork.ui.LTEDetailsActivity">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefreshLayout"

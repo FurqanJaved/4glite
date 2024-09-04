@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:fillViewport="true"
     android:gravity="center"
-    tools:context="com.maxdev.glitenetwork.ui.NetSpeedActivity">
+    tools:context="com.xperts.glitenetwork.ui.NetSpeedActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.maxdev.glitenetwork.speedmeter.PointerSpeedometer
+            <com.xperts.glitenetwork.speedmeter.PointerSpeedometer
                 android:id="@+id/pointerSpeedometer"
                 android:layout_width="@dimen/_150sdp"
                 android:layout_height="@dimen/_150sdp"

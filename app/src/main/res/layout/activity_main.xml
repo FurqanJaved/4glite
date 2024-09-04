@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:id="@+id/mainSee"
-    tools:context="com.maxdev.glitenetwork.ui.MainActivity">
+    tools:context="com.xperts.glitenetwork.ui.MainActivity">
 
     <TextView
         android:id="@+id/ping4g"

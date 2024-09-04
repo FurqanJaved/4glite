@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context="com.maxdev.glitenetwork.ui.SettingsActivity">
+    tools:context="com.xperts.glitenetwork.ui.SettingsActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -176,6 +176,39 @@
                         android:layout_height="@dimen/_20sdp"
                         android:layout_marginStart="@dimen/_20sdp"
                         android:src="@drawable/ic_setting_share"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/clAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_44sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/setting_item_selector">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:text="@string/share_app"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14ssp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/ivAbout"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/ivAbout"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:src="@drawable/how_to_use_icon"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />

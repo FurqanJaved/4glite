@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace 'com.maxdev.glitenetwork'
+    namespace 'com.xperts.glitenetwork'
     compileSdk 34
     buildFeatures{
         buildConfig true
     }
     defaultConfig {
-        applicationId "com.maxdev.glitenetwork"
+        applicationId "com.xperts.glitenetwork"
         minSdk 24
         targetSdk 34
         versionCode 1
@@ -74,6 +74,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
     implementation "androidx.lifecycle:lifecycle-common-java8:2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
 
     // Kotlin components
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"

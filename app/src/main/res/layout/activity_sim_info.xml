@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:fillViewport="true"
     android:gravity="center"
-    tools:context="com.maxdev.glitenetwork.ui.SimInfoActivity">
+    tools:context="com.xperts.glitenetwork.ui.SimInfoActivity">
 
     <ScrollView
         android:layout_width="match_parent"

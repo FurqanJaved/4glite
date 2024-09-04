@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
-        android:name="com.maxdev.glitenetwork.app.AppDelegate"
+        android:name="com.xperts.glitenetwork.app.AppDelegate"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -28,51 +28,54 @@
         tools:targetApi="31">
 
         <activity
-            android:name="com.maxdev.glitenetwork.ui.AnimationActivity"
+            android:name="com.xperts.glitenetwork.ui.AboutActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.splash.SecondTimeOnly"
+            android:name="com.xperts.glitenetwork.ui.AnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.xperts.glitenetwork.splash.SecondTimeOnly"
             android:exported="false" /> <!-- <activity -->
         <!-- android:name="com.example.a4glite.splash.SelectCategories" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name="com.maxdev.glitenetwork.ui.SelectLangActivity"
+            android:name="com.xperts.glitenetwork.ui.SelectLangActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.BoardingActivity"
+            android:name="com.xperts.glitenetwork.ui.BoardingActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.HowtoUseActivity"
+            android:name="com.xperts.glitenetwork.ui.HowtoUseActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.SignalStrengthActivity"
+            android:name="com.xperts.glitenetwork.ui.SignalStrengthActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.SimInfoActivity"
+            android:name="com.xperts.glitenetwork.ui.SimInfoActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.LTEDetailsActivity"
+            android:name="com.xperts.glitenetwork.ui.LTEDetailsActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.LteSettingsActivity"
+            android:name="com.xperts.glitenetwork.ui.LteSettingsActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.SpeedTestActivity"
+            android:name="com.xperts.glitenetwork.ui.SpeedTestActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.NetSpeedActivity"
+            android:name="com.xperts.glitenetwork.ui.NetSpeedActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.DataUsageActivity"
+            android:name="com.xperts.glitenetwork.ui.DataUsageActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.SettingsActivity"
+            android:name="com.xperts.glitenetwork.ui.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.ui.MainActivity"
+            android:name="com.xperts.glitenetwork.ui.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.maxdev.glitenetwork.splash.SplashActivity"
+            android:name="com.xperts.glitenetwork.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

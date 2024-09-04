@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/baseline_keyboard_arrow_left_24"/>
+
+        <TextView
+            android:id="@+id/text_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginStart="12dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circularImageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView6"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="@color/black"
+            android:text="Version Code:  "
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/appVersion"
+            android:textSize="19dp"
+            android:textColor="@color/black"
+            android:text="V0.0.0"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text_developer_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:text="This App Developed By Xpert"
+        android:textSize="16sp"/>
+
+</LinearLayout>

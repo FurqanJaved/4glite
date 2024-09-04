@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context="com.maxdev.glitenetwork.ui.SignalStrengthActivity">
+    tools:context="com.xperts.glitenetwork.ui.SignalStrengthActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ad_container"
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.maxdev.glitenetwork.signalstrenhtmeter.SSSPointerSpeedometer
+            <com.xperts.glitenetwork.signalstrenhtmeter.SSSPointerSpeedometer
                 android:id="@+id/pointerSpeedometerOne"
                 android:layout_width="@dimen/_120sdp"
                 android:layout_height="@dimen/_120sdp"
@@ -63,7 +63,7 @@
                 app:layout_constraintStart_toStartOf="@id/pointerSpeedometerOne"
                 app:layout_constraintTop_toBottomOf="@id/pointerSpeedometerOne" />
 
-            <com.maxdev.glitenetwork.signalstrenhtmeter.SSSPointerSpeedometer
+            <com.xperts.glitenetwork.signalstrenhtmeter.SSSPointerSpeedometer
                 android:id="@+id/pointerSpeedometerTwo"
                 android:layout_width="@dimen/_120sdp"
                 android:layout_height="@dimen/_120sdp"
